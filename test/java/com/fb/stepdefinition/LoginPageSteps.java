@@ -67,7 +67,7 @@ public class LoginPageSteps {
 	    t.sendKeys(Confirm);
 	    WebElement u = d.findElement(By.xpath("//button[@id='submitbtn']"));
 	    u.click();
-	    d.findElement(By.xpath("//a[text()='WebTable']")).click();
+	    
 	}
 
 	@Then("Verify success message")
